@@ -1,0 +1,14 @@
+/Users/mac/Desktop/FunctionalProgrammingTasks/bin/Debug/net6.0/FunctionalProgrammingTasks
+/Users/mac/Desktop/FunctionalProgrammingTasks/bin/Debug/net6.0/FunctionalProgrammingTasks.deps.json
+/Users/mac/Desktop/FunctionalProgrammingTasks/bin/Debug/net6.0/FunctionalProgrammingTasks.runtimeconfig.json
+/Users/mac/Desktop/FunctionalProgrammingTasks/bin/Debug/net6.0/FunctionalProgrammingTasks.dll
+/Users/mac/Desktop/FunctionalProgrammingTasks/bin/Debug/net6.0/FunctionalProgrammingTasks.pdb
+/Users/mac/Desktop/FunctionalProgrammingTasks/obj/Debug/net6.0/FunctionalProgrammingTasks.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Desktop/FunctionalProgrammingTasks/obj/Debug/net6.0/FunctionalProgrammingTasks.AssemblyInfoInputs.cache
+/Users/mac/Desktop/FunctionalProgrammingTasks/obj/Debug/net6.0/FunctionalProgrammingTasks.AssemblyInfo.cs
+/Users/mac/Desktop/FunctionalProgrammingTasks/obj/Debug/net6.0/FunctionalProgrammingTasks.csproj.CoreCompileInputs.cache
+/Users/mac/Desktop/FunctionalProgrammingTasks/obj/Debug/net6.0/FunctionalProgrammingTasks.dll
+/Users/mac/Desktop/FunctionalProgrammingTasks/obj/Debug/net6.0/refint/FunctionalProgrammingTasks.dll
+/Users/mac/Desktop/FunctionalProgrammingTasks/obj/Debug/net6.0/FunctionalProgrammingTasks.pdb
+/Users/mac/Desktop/FunctionalProgrammingTasks/obj/Debug/net6.0/FunctionalProgrammingTasks.genruntimeconfig.cache
+/Users/mac/Desktop/FunctionalProgrammingTasks/obj/Debug/net6.0/ref/FunctionalProgrammingTasks.dll

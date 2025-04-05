@@ -1,0 +1,5 @@
+/Users/mac/Desktop/projects/Dungeon/obj/Debug/net6.0/Dungeon.csproj.AssemblyReference.cache
+/Users/mac/Desktop/projects/Dungeon/obj/Debug/net6.0/Dungeon.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Desktop/projects/Dungeon/obj/Debug/net6.0/Dungeon.AssemblyInfoInputs.cache
+/Users/mac/Desktop/projects/Dungeon/obj/Debug/net6.0/Dungeon.AssemblyInfo.cs
+/Users/mac/Desktop/projects/Dungeon/obj/Debug/net6.0/Dungeon.csproj.CoreCompileInputs.cache
