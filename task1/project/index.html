@@ -1,151 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Portfolio Website</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="styles.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Space+Grotesk:500,700,400|Inter:500,600" rel="stylesheet" />
-  </head>
-  <body>
-    <div class="container">
-      <!-- Navigation -->
-      <nav class="nav">
-        <div class="logo">
-          <img src="img/vector-7.svg" alt="Logo" style="width: 49px; height: 49px;" />
-          <span>znis</span>
-        </div>
-        <div class="nav-links">
-          <a href="#about">About //</a>
-          <a href="#portfolio">Portfolio</a>
-          <a href="#contact">Hire Me</a>
-        </div>
-      </nav>
-
-      <!-- Hero Section -->
-      <section class="hero">
-        <div class="hero-content">
-          <div class="star-decoration">
-            <img src="img/frame-14.svg" alt="Pink Star" />
-          </div>
-          <h1>I design <span class="writing-hand">✍</span> top<br />notch <span class="highlight">websites</span></h1>
-          <button class="cta-button">
-            See Portfolio
-            <div class="shine"></div>
-          </button>
-        </div>
-        <div class="hero-image">
-          <div class="smiley-container">
-            <div class="smiley-box">
-              <div class="smiley-face">:)</div>
-              <div class="light-bulb">💡</div>
-            </div>
-            <div class="name-tag">ZAINAB</div>
-          </div>
-          <div class="star-corner"></div>
-        </div>
-      </section>
-
-      <!-- Services Section -->
-      <section class="services">
-        <div class="service-stats">
-          <div class="stat">
-            <h2>39</h2>
-            <p>Projects</p>
-          </div>
-          <div class="stat">
-            <h2>100k+</h2>
-            <p>generated</p>
-          </div>
-        </div>
-        <div class="service-grid">
-          <div class="service-card">
-            <div class="service-icon" style="background-color: #ffdc58;">
-              <img src="img/frame-25.svg" alt="User Research" />
-            </div>
-            <h3>User Research</h3>
-            <p>Services we're providing that derive 99% result</p>
-            <a href="#" class="learn-more">Learn more</a>
-          </div>
-          <div class="service-card">
-            <div class="service-icon" style="background-color: #b9e6fe;">
-              <img src="img/frame-42.svg" alt="Marketing" />
-            </div>
-            <h3>Marketing</h3>
-            <p>Learn more about our marketing strategies</p>
-            <a href="#" class="learn-more">Learn more</a>
-          </div>
-          <div class="service-card">
-            <div class="service-icon" style="background-color: #ffdc58;">
-              <img src="img/frame-43.svg" alt="UI Designing" />
-            </div>
-            <h3>UI Designing</h3>
-            <p>Create beautiful and intuitive interfaces</p>
-            <a href="#" class="learn-more">Learn more</a>
-          </div>
-          <div class="service-card">
-            <div class="service-icon" style="background-color: #b9e6fe;">
-              <img src="img/frame-44.svg" alt="Development" />
-            </div>
-            <h3>Development</h3>
-            <p>Full-stack development solutions</p>
-            <a href="#" class="learn-more">Learn more</a>
-          </div>
-        </div>
-      </section>
-
-      <!-- Portfolio Section -->
-      <section class="portfolio" id="portfolio">
-        <h2>My Portfolio</h2>
-        <div class="portfolio-grid">
-          <div class="portfolio-card">
-            <img src="img/rectangle-6.png" alt="Portfolio item" style="width: 100%; height: auto;" />
-            <div class="portfolio-info">
-              <h3>Portfolio design</h3>
-              <p>UI design - User research - webflow develop</p>
-              <button class="arrow-button">→</button>
-            </div>
-          </div>
-          <div class="portfolio-card">
-            <img src="img/rectangle-6-1.png" alt="Portfolio item" style="width: 100%; height: auto;" />
-            <div class="portfolio-info">
-              <h3>E-commerce Website</h3>
-              <p>UI/UX design - Development - Marketing</p>
-              <button class="arrow-button">→</button>
-            </div>
-          </div>
-          <div class="portfolio-card">
-            <img src="img/rectangle-6-2.png" alt="Portfolio item" style="width: 100%; height: auto;" />
-            <div class="portfolio-info">
-              <h3>Mobile App Design</h3>
-              <p>App design - User testing - Development</p>
-              <button class="arrow-button">→</button>
-            </div>
-          </div>
-          <div class="portfolio-card">
-            <img src="img/rectangle-6-3.png" alt="Portfolio item" />
-            <div class="portfolio-info">
-              <h3>Brand Identity</h3>
-              <p>Branding - Logo design - Style guide</p>
-              <button class="arrow-button">→</button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Footer -->
-      <footer class="footer">
-        <div class="footer-content">
-          <h2>Let's start designing your project</h2>
-          <p>Want to see how to transform your brand into a unique style. sent us a message</p>
-          <button class="cta-button">Send us message</button>
-        </div>
-        <div class="social-links">
-          <a href="#"><img src="img/group-3.png" alt="Social" /></a>
-          <a href="#"><img src="img/ri-instagram-line.svg" alt="Instagram" /></a>
-          <a href="#"><img src="img/akar-icons-x-fill.svg" alt="Twitter" /></a>
-        </div>
-      </footer>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=732.96, initial-scale=1.0">
+  <title>Znis Navbar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <!-- Left Corner SVG -->
+    <img src="img/nav/vector-6-l.svg" alt="left-corner" style="position:absolute; left:-18px; top:-18px; width:36px; height:36px;" />
+    <div class="navbar-logo">
+      <img src="img/nav/logo.svg" alt="znis logo">
+      <span class="navbar-brand">znis</span>
     </div>
-  </body>
+    <div class="navbar-links">
+      <a href="#about" class="navbar-link underline">About //</a>
+      <a href="#portfolio" class="navbar-link active">Portfolio</a>
+      <a href="#hire" class="navbar-link">Hire Me</a>
+    </div>
+    <!-- Right Corner SVG -->
+    <img src="img/nav/vector-8-r.svg" alt="right-corner" style="position:absolute; right:-18px; top:-18px; width:36px; height:36px;" />
+  </nav>
+  <!-- Horizontal line below navbar, matching navbar width and alignment -->
+  <!-- <div class="navbar-divider">
+    <img src="img/line-8.svg" alt="divider" />
+  </div> -->
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero-section">
+      <div class="hero-left">
+        <img src="img/hero/frame-14.svg" alt="pink star" class="hero-pink-star" />
+        <div class="hero-headline">
+          <span>I design <span class="emoji">✍️</span> top<br>notch <span class="highlight">websites</span></span>
+        </div>
+        <button class="hero-btn">See Portfolio</button>
+      </div>
+      <div class="hero-right">
+        <div class="hero-frame-imgbox">
+          <img src="img/hero/border-1.png" alt="border 1" class="border-img border-1">
+          <div class="hero-dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+          <div class="hero-lightbulb">
+            <img src="img/hero/frame-21.svg" alt="lightbulb" />
+          </div>
+          
+          <img src="img/hero/border-3.png" alt="border 3" class="border-img border-3">
+          <div class="hero-inner-box">
+            
+         
+            <div class="hero-dashed-line"></div>
+            <img src="img/hero/smily.svg" alt="smiley face" class="smiley-svg" />
+            <img src="img/hero/vector-12.svg" alt="star" class="hero-star" />
+          </div>
+        </div>
+        <!-- Decorations can be added here later -->
+      </div>
+    </section>
+    <!-- Tools Bar Section -->
+    <section class="tools-bar">
+      <span class="tool-name">Figma</span>
+      <span class="tool-name">Framer</span>
+      <span class="tool-name">Webflow</span>
+      <span class="tool-name">Notion</span>
+      <span class="tool-name">Lottie</span>
+    </section>
+    <!-- Services Section -->
+    <section class="services-section">
+      <div class="services-heading-row">
+        <h2 class="services-title">Services we're providing that derive 99% result <span class="services-smiley">😊</span></h2>
+        <img src="img/hero/frame-14.svg" alt="decorative star" class="services-star" />
+      </div>
+      <div class="services-content">
+        <div class="services-left">
+          <div class="services-stat">
+            <div class="stat-number">39</div>
+            <div class="stat-label">Projects</div>
+          </div>
+          <hr class="services-divider" />
+          <div class="services-stat">
+            <div class="stat-number">100k+</div>
+            <div class="stat-label">generated</div>
+          </div>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon yellow"><img src="img/Heading/frame-25.svg" alt="User Research" /></div>
+            <div class="service-title">User Research</div>
+            <div class="service-desc">Services we're providing that derive 99% result</div>
+            <a href="#" class="service-link">Learn more</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon purple"><img src="img/Heading/frame-42.svg" alt="Wireframing" /></div>
+            <div class="service-title">Wireframing</div>
+            <div class="service-desc">Services we're providing that derive 99% result</div>
+            <a href="#" class="service-link">Learn more</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon red"><img src="img/Heading/frame-43.svg" alt="UI Designing" /></div>
+            <div class="service-title">UI Designing</div>
+            <div class="service-desc">Services we're providing that derive 99% result</div>
+            <a href="#" class="service-link">Learn more</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon blue"><img src="img/Heading/frame-44.svg" alt="Prototyping" /></div>
+            <div class="service-title">Prototyping</div>
+            <div class="service-desc">Services we're providing that derive 99% result</div>
+            <a href="#" class="service-link">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Heading Section -->
+    <section class="portfolio-heading-section">
+      <div class="portfolio-heading-box">
+        <h2 class="portfolio-title">
+          <span class="portfolio-title-main">My <span class="portfolio-title-bold">Portfolio</span></span>
+        </h2>
+        <img src="img/Heading/group-1.png" alt="portfolio underline" class="portfolio-title-underline-img" />
+        <img src="img/frame-18.svg" alt="blue sun icon" class="portfolio-heading-icon" />
+      </div>
+    </section>
+    <!-- Portfolio Grid Section -->
+    <section class="portfolio-grid-section">
+      <div class="portfolio-grid">
+        <div class="portfolio-box">
+          <img src="img/hero/border-1.png" alt="box border" class="portfolio-box-border" />
+          <div class="portfolio-box-inner">
+            <img src="img/box/rectangle-6.png" alt="Project 1" class="portfolio-box-img" />
+            <div class="portfolio-box-content">
+              <div class="portfolio-box-title">Portfolio design</div>
+              <div class="portfolio-box-desc">UI design - User research - webflow develop</div>
+              <a href="#" class="portfolio-box-link">
+                <img src="img/box/frame-95468.svg" alt="arrow" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="img/hero/border-1.png" alt="box border" class="portfolio-box-border" />
+          <div class="portfolio-box-inner">
+            <img src="img/box/rectangle-6-1.png" alt="Project 2" class="portfolio-box-img" />
+            <div class="portfolio-box-content">
+              <div class="portfolio-box-title">Portfolio design</div>
+              <div class="portfolio-box-desc">UI design - User research - webflow develop</div>
+              <a href="#" class="portfolio-box-link">
+                <img src="img/box/frame-95468.svg" alt="arrow" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="img/hero/border-1.png" alt="box border" class="portfolio-box-border" />
+          <div class="portfolio-box-inner">
+            <img src="img/box/rectangle-6-2.png" alt="Project 3" class="portfolio-box-img" />
+            <div class="portfolio-box-content">
+              <div class="portfolio-box-title">Portfolio design</div>
+              <div class="portfolio-box-desc">UI design - User research - webflow develop</div>
+              <a href="#" class="portfolio-box-link">
+                <img src="img/box/frame-95468.svg" alt="arrow" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="img/hero/border-1.png" alt="box border" class="portfolio-box-border" />
+          <div class="portfolio-box-inner">
+            <img src="img/box/rectangle-6-3.png" alt="Project 4" class="portfolio-box-img" />
+            <div class="portfolio-box-content">
+              <div class="portfolio-box-title">Portfolio design</div>
+              <div class="portfolio-box-desc">UI design - User research - webflow develop</div>
+              <a href="#" class="portfolio-box-link">
+                <img src="img/box/frame-95468.svg" alt="arrow" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+      <div class="testimonials-title-row">
+        <h2 class="testimonials-title">Here's what my clients<br>are saying about my work</h2>
+        <img src="img/group-2.png" alt="decorative group" class="testimonials-group-img" />
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card rotate-left">
+          <div class="testimonial-quote">"Design is a bridge that connects everyone and everything"</div>
+          <div class="testimonial-client-row">
+            <img src="img/char/ellipse-5.png" alt="Client 1" class="testimonial-client-img" />
+            <div class="testimonial-client-info">
+              <div class="testimonial-client-name">Client First Name</div>
+              <div class="testimonial-client-role">UX Designer, Company Name</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card rotate-right">
+          <div class="testimonial-quote">"Design is a bridge that connects everyone and everything"</div>
+          <div class="testimonial-client-row">
+            <img src="img/char/ellipse-6.png" alt="Client 2" class="testimonial-client-img" />
+            <div class="testimonial-client-info">
+              <div class="testimonial-client-name">Client Name</div>
+              <div class="testimonial-client-role">UX Designer, Company Name</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card rotate-left">
+          <div class="testimonial-quote">"Design is a bridge that connects everyone and everything"</div>
+          <div class="testimonial-client-row">
+            <img src="img/char/ellipse-7.png" alt="Client 3" class="testimonial-client-img" />
+            <div class="testimonial-client-info">
+              <div class="testimonial-client-name">Client Name</div>
+              <div class="testimonial-client-role">UX Designer, Company Name</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card rotate-right">
+          <div class="testimonial-quote">"Design is a bridge that connects everyone and everything"</div>
+          <div class="testimonial-client-row">
+            <img src="img/char/ellipse-7-1.png" alt="Client 4" class="testimonial-client-img" />
+            <div class="testimonial-client-info">
+              <div class="testimonial-client-name">Client Name</div>
+              <div class="testimonial-client-role">UX Designer, Company Name</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="cta-box">
+        <img src="img/vector-11.svg" alt="star" class="cta-star" />
+        <h2 class="cta-title">Let's start designing your project</h2>
+        <p class="cta-subtext">Want to see how to transform your brand into a unique style. sent us a message</p>
+        <button class="cta-btn">Send us message <span class="cta-btn-underline"></span></button>
+      </div>
+    </section>
+    <!-- Full-width line after CTA section -->
+    <div class="fullwidth-divider">
+      <img src="img/line-8.svg" alt="divider" />
+    </div>
+    <footer class="footer">
+      <div class="footer-left">
+        <img src="img/nav/logo.svg" alt="znis logo" class="footer-logo" />
+        <span class="footer-brand">znis</span>
+      </div>
+      <div class="footer-center">Portfolio 2024</div>
+      <div class="footer-right">
+        <a href="#" class="footer-icon"><img src="img/maid/group-3.png" alt="Dribbble" /></a>
+        <a href="#" class="footer-icon"><img src="img/maid/ri-instagram-line.svg" alt="Instagram" /></a>
+        <a href="#" class="footer-icon"><img src="img/maid/akar-icons-x-fill.svg" alt="X" /></a>
+      </div>
+    </footer>
+  </main>
+</body>
 </html>
